@@ -1,0 +1,32 @@
+{
+  "name": "s3-browser-api",
+  "version": "1.0.0",
+  "description": "S3 Browser API",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abidtkg/s3-browser-api.git"
+  },
+  "keywords": [
+    "S3",
+    "API"
+  ],
+  "author": "Abid Hasan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abidtkg/s3-browser-api/issues"
+  },
+  "homepage": "https://github.com/abidtkg/s3-browser-api#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
